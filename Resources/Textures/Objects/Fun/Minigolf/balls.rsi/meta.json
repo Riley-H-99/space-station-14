@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "license": "1.1.1",
+    "copyright": "fritter",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+        {
+            "name": "w_ball"
+        }
+    ]
+}

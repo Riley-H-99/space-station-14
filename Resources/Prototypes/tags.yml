@@ -513,6 +513,9 @@
   id: Goat
 
 - type: Tag
+  id: GolfBall
+
+- type: Tag
   id: Grenade
 
 - type: Tag
@@ -738,6 +741,9 @@
 
 - type: Tag
   id: MindTransferTarget
+
+- type: Tag
+  id: MiniGolfClub
 
 - type: Tag
   id: MonkeyCube

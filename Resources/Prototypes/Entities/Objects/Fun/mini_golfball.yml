@@ -1,0 +1,22 @@
+- type: entity
+  abstract: true
+  parent: BaseItem
+  id: BaseGolfBall
+  components:
+  - type: GolfBall
+  - type: Tag
+    tags:
+    - GolfBall
+  - type: Sprite
+    sprite: Objects/Fun/Minigolf/balls.rsi
+  - type: Item
+    size: Tiny
+
+- type: entity
+  parent: BaseGolfBall
+  id: WhiteGolfBall
+  name: white golf ball
+  description: a regular golf ball for the non discerning putter
+  components:
+  - type: Sprite
+    state: w_ball

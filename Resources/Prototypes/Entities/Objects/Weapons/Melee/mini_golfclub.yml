@@ -1,0 +1,27 @@
+- type: entity
+  name: golf club
+  parent: BaseItem
+  id: MiniGolfClub
+  description: A delicate instrument of putting.
+  components:
+  - type: Sprite
+    sprite: Objects/Fun/Minigolf/clubs.rsi
+    state: icon
+  - type: GolfClub
+  - type: MeleeWeapon
+    wideAnimationRotation: -135
+    damage:
+      types:
+        Blunt: 10
+  - type: Wieldable
+  - type: IncreaseDamageOnWield
+    damage:
+      types:
+        Blunt: 8
+  - type: Item
+    size: Normal
+  - type: UseDelay
+    delay: 1
+  - type: Tag
+    tags:
+    - MiniGolfClub
